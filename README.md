@@ -9,3 +9,10 @@ Requirements
 
  -  python
  -  html5lib
+
+Installation
+============
+
+ -  Install `fixdir` from https://github.com/mildred/fixdir
+ -  `fixdir install .` in this directory
+
