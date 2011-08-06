@@ -21,7 +21,7 @@ def to_data_url(url):
         f.info()
           .getheader("Content-Type")
           .replace('; charset=', ';charset='),
-        base64.urlsafe_b64encode(f.read()))
+        base64.standard_b64encode(f.read()))
       sys.stderr.write("ok\n")
     except:
       sys.stderr.write("Link to %s\n" % url)
